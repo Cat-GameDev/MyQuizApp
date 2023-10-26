@@ -1,4 +1,4 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 data class SubCategoryModel(
     var cat_id:Int,

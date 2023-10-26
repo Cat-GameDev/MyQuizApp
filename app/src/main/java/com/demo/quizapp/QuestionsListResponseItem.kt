@@ -1,4 +1,4 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 data class QuestionsListResponseItem(
     val correct_option: String,

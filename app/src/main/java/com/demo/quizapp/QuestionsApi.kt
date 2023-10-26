@@ -1,4 +1,4 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 import okhttp3.RequestBody
 import retrofit2.Call

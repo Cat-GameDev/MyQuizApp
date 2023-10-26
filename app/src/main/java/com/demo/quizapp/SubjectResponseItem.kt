@@ -1,4 +1,4 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 data class SubjectResponseItem(
     val name: String,

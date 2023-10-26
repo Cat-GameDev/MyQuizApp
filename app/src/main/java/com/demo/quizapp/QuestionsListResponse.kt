@@ -1,3 +1,3 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 class QuestionsListResponse : ArrayList<QuestionsListResponseItem>()

@@ -1,4 +1,4 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

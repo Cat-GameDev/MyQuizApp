@@ -1,12 +1,12 @@
-package com.example.myquizapp
+package com.demo.quizapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import com.example.myquizapp.QuestionsActivity.Companion.result
-import com.example.myquizapp.QuestionsActivity.Companion.totalQuestions
+import com.demo.quizapp.QuestionsActivity.Companion.result
+import com.demo.quizapp.QuestionsActivity.Companion.totalQuestions
 
 class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

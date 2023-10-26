@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.myquizapp">
+    package="com.demo.quizapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,15 +17,15 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".AllQuestionsActivity"
+            android:name="com.demo.quizapp.AllQuestionsActivity"
             android:noHistory="true"
             android:exported="false" />
         <activity
-            android:name=".AddQuestionsActivity"
+            android:name="com.demo.quizapp.AddQuestionsActivity"
             android:noHistory="true"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.demo.quizapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,20 +34,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SubCategoryActivity"
+            android:name="com.demo.quizapp.SubCategoryActivity"
             android:exported="false" />
         <activity
-            android:name=".QuestionsActivity"
+            android:name="com.demo.quizapp.QuestionsActivity"
             android:noHistory="true"
             android:launchMode="singleTop"
             android:exported="false" />
         <activity
-            android:name=".ResultActivity"
+            android:name="com.demo.quizapp.ResultActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
             android:exported="false" />
         <activity
-            android:name=".MainCategoryActivity"
+            android:name="com.demo.quizapp.MainCategoryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
