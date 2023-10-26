@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Quiz App</string>
+    <string-array name="answers">
+        <item>option1</item>
+        <item>option2</item>
+        <item>option3</item>
+        <item>option4</item>
+    </string-array>
+</resources>
